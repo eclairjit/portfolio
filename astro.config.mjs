@@ -12,5 +12,8 @@ export default defineConfig({
         tailwind({
             applyBaseStyles: false
         })
-    ]
+    ],
+    image: {
+        domains: ['ik.imagekit.io']
+    }
 });
